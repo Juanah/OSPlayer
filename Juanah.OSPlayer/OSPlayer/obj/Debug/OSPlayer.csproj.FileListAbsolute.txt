@@ -1,9 +1,0 @@
-C:\Users\Jonas-Work\Documents\Juanah\Juanah.OSPlayer\OSPlayer\bin\Debug\OSPlayer.dll
-C:\Users\Jonas-Work\Documents\Juanah\Juanah.OSPlayer\OSPlayer\bin\Debug\OSPlayer.pdb
-C:\Users\Jonas-Work\Documents\Juanah\Juanah.OSPlayer\OSPlayer\bin\Debug\OpenTK.dll
-C:\Users\Jonas-Work\Documents\Juanah\Juanah.OSPlayer\OSPlayer\bin\Debug\ViewInfrastructure.dll
-C:\Users\Jonas-Work\Documents\Juanah\Juanah.OSPlayer\OSPlayer\bin\Debug\ViewInfrastructure.pdb
-C:\Users\Jonas-Work\Documents\Juanah\Juanah.OSPlayer\OSPlayer\bin\Debug\OpenTK.xml
-C:\Users\Jonas-Work\Documents\Juanah\Juanah.OSPlayer\OSPlayer\obj\Debug\OSPlayer.csprojResolveAssemblyReference.cache
-C:\Users\Jonas-Work\Documents\Juanah\Juanah.OSPlayer\OSPlayer\obj\Debug\OSPlayer.dll
-C:\Users\Jonas-Work\Documents\Juanah\Juanah.OSPlayer\OSPlayer\obj\Debug\OSPlayer.pdb
