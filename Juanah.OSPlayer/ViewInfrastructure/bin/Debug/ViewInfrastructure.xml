@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ViewInfrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:ViewInfrastructure.View">
+            <summary>
+            Stellt die Basis aller Views dar
+            Jonas Ahlf 21.02.2015 12:15:55
+            </summary>
+        </member>
+        <member name="T:ViewInfrastructure.IView">
+            <summary>
+            Stellt das Basis View dar welches von jedem View Implementiert sein muss
+            Jonas Ahlf 21.02.2015 12:20:55
+            </summary>
+        </member>
+        <member name="M:ViewInfrastructure.View.CheckPosition(System.Single,System.Single)">
+            <summary>
+            Gibt einen boolischen wert zurück, der prüft, ob der bereich der Aktion in dem des Views ist, 
+            unter unterviews liegt
+            </summary>
+            <returns>The position.</returns>
+            <param name="x">The x coordinate.</param>
+            <param name="y">The y coordinate.</param>
+        </member>
+        <member name="P:ViewInfrastructure.View.GeometricType">
+            <summary>
+            Gibt an welche form das View hat (Quadrat, Dreieck usw.)
+            </summary>
+            <value>The type of the geometric.</value>
+        </member>
+        <member name="P:ViewInfrastructure.View.Vector2D">
+            <summary>
+            2d Vectoren
+            </summary>
+            <value>The vector2 d.</value>
+        </member>
+        <member name="P:ViewInfrastructure.View.Vector3D">
+            <summary>
+            3D Vectoren
+            </summary>
+            <value>The vector3 d.</value>
+        </member>
+        <member name="P:ViewInfrastructure.View.Color">
+            <summary>
+            Gibt die Farbe des Views an
+            </summary>
+            <value>The color.</value>
+        </member>
+        <member name="P:ViewInfrastructure.View.InnerViews">
+            <summary>
+            Die innerenViews welche immer nach dem baseView gerendert werden
+            </summary>
+            <value>The inner views.</value>
+        </member>
+        <member name="P:ViewInfrastructure.View.offsetX">
+            <summary>
+            Gets or sets the offset x.
+            </summary>
+            <value>The offset x.</value>
+        </member>
+        <member name="P:ViewInfrastructure.View.offsetY">
+            <summary>
+            Gets or sets the offset y.
+            </summary>
+            <value>The offset y.</value>
+        </member>
+        <member name="T:ViewInfrastructure.IHitbox">
+            <summary>
+            Stellt den breich dar, indem eine Aktion erwartet wird
+            Jonas Ahlf 22.02.2015 23:21:24
+            </summary>
+        </member>
+        <member name="T:ViewInfrastructure.TextView">
+            <summary>
+            Text view.
+            </summary>
+        </member>
+        <member name="M:ViewInfrastructure.TextView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:ViewInfrastructure.TextView"/> class.
+            </summary>
+        </member>
+        <member name="P:ViewInfrastructure.TextView.Font">
+            <summary>
+            Gets or sets the font.
+            </summary>
+            <value>The font.</value>
+        </member>
+        <member name="P:ViewInfrastructure.TextView.BrushColor">
+            <summary>
+            Gets or sets the color of the brush.
+            </summary>
+            <value>The color of the brush.</value>
+        </member>
+        <member name="P:ViewInfrastructure.TextView.Position">
+            <summary>
+            Gets or sets the position.
+            </summary>
+            <value>The position.</value>
+        </member>
+        <member name="P:ViewInfrastructure.TextView.TextRenderer">
+            <summary>
+            Gets or sets the text renderer.
+            </summary>
+            <value>The text renderer.</value>
+        </member>
+        <member name="P:ViewInfrastructure.TextView.TextCoords">
+            <summary>
+            Gets or sets the text coords.
+            </summary>
+            <value>The text coords.</value>
+        </member>
+        <member name="P:ViewInfrastructure.TextView.Text">
+            <summary>
+            Gets or sets the text.
+            </summary>
+            <value>The text.</value>
+        </member>
+        <member name="T:ViewInfrastructure.TextRenderer">
+            <summary>
+            Uses System.Drawing for 2d text rendering.
+            </summary>
+        </member>
+        <member name="M:ViewInfrastructure.TextRenderer.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Constructs a new instance.
+            </summary>
+            <param name="width">The width of the backing store in pixels.</param>
+            <param name="height">The height of the backing store in pixels.</param>
+        </member>
+        <member name="M:ViewInfrastructure.TextRenderer.Clear(System.Drawing.Color)">
+            <summary>
+            Clears the backing store to the specified color.
+            </summary>
+            <param name="color">A <see cref="T:System.Drawing.Color"/>.</param>
+        </member>
+        <member name="M:ViewInfrastructure.TextRenderer.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF)">
+            <summary>
+            Draws the specified string to the backing store.
+            </summary>
+            <param name="text">The <see cref="T:System.String"/> to draw.</param>
+            <param name="font">The <see cref="T:System.Drawing.Font"/> that will be used.</param>
+            <param name="brush">The <see cref="T:System.Drawing.Brush"/> that will be used.</param>
+            <param name="point">The location of the text on the backing store, in 2d pixel coordinates.
+            The origin (0, 0) lies at the top-left corner of the backing store.</param>
+        </member>
+        <member name="P:ViewInfrastructure.TextRenderer.Texture">
+            <summary>
+            Gets a <see cref="T:System.Int32"/> that represents an OpenGL 2d texture handle.
+            The texture contains a copy of the backing store. Bind this texture to TextureTarget.Texture2d
+            in order to render the drawn text on screen.
+            </summary>
+        </member>
+    </members>
+</doc>

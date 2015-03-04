@@ -1,0 +1,28 @@
+﻿<Properties StartupItem="OSPlayerTest\OSPlayerTest.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OSPlayer\Data\ViewStore.cs">
+    <Files>
+      <File FileName="OSPlayerTest\Program.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="ViewInfrastructure\Views\View.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="OSPlayer\Data\ViewStore.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="OSPlayer\Window.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="..\..\OpenTK\1.1\Source\Examples\OpenGL\1.x\TextRendering.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="ViewInfrastructure\Views\TextView.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="ViewInfrastructure\TextRenderer.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="OSPlayer\OSInitializer.cs" Line="1" Column="1" NotebookId="1" />
+    </Files>
+    <FloatingWindows>
+      <FloatingWindow WindowId="1" X="960" Y="0" Width="944" Height="1001">
+        <Files>
+          <File FileName="..\..\OpenTK\1.1\Source\Examples\OpenTK\Test\BasicMouseInput.cs" Line="13" Column="13" />
+        </Files>
+      </FloatingWindow>
+    </FloatingWindows>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Jonas-Work\Documents\Juanah\Juanah.OSPlayer\OSPlayer\Window.cs" line="72" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
